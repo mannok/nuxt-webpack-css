@@ -7,6 +7,9 @@ export default defineNuxtConfig({
     transpile: ['vue-demi'],
   },
   ssr: false,
+  css: [
+    '@/style.css'
+  ],
   webpack: {
     extractCSS: false
   }
